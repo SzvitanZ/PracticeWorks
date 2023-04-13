@@ -1,3 +1,69 @@
-div{
-    color:red
+/* --- Reset --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+body {
+    min-height: 100vh;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+/* --- Reset --- */
+
+/* --- Variables --- */
+:root {
+    --bg-img-layer: -10;
+    --nav-layer: 10;
+    
+}
+/* --- Variables --- */
+
+body {
+    background-color: aqua;
+    min-height: 100vh;
+}
+
+.flex-container { 
+    
+    display: flex;
+    flex-wrap: wrap; /* nowrap */
+    flex-direction: row; /* column */
+    justify-content: space-evenly;
+    
+    
+    
+
+}
+
+
+.flex-container div {
+    
+    
+    background-color:orange;
+    color:darkblue;
+    text-shadow: 2px 2px grey;
+    /* border-block-start-width: 5px; */
+    /* box-sizing: content-box; */
+    text-align:center;
+    width: 200px;
+    height: 100px;
+    padding: 20px;  
+    border: 10px solid blue;
+    
+    
+    
+
 }
