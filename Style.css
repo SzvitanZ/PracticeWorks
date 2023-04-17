@@ -32,17 +32,22 @@ img, picture, svg, video {
 /* --- Variables --- */
 
 body {
-    background-color: aqua;
+    background-color: rgb(140, 233, 233);
     min-height: 100vh;
+    border: 3px solid black;
+    
 }
 
 .flex-container { 
     
-    display: flex;
+    display:flex;
     flex-wrap: wrap; /* nowrap */
     flex-direction: row; /* column */
     justify-content: space-evenly;
-    
+    /* align-content: space-around; */
+    align-items:center;
+    padding: 40px;
+    color:15px solid darkblue;
     
     
 
@@ -52,16 +57,21 @@ body {
 .flex-container div {
     
     
-    background-color:orange;
-    color:darkblue;
+    background-color:rgb(225, 189, 122);
+    color:15px solid darkblue;
     text-shadow: 2px 2px grey;
+    box-shadow: 3px 10px 6px rgb(96, 92, 92);
     /* border-block-start-width: 5px; */
     /* box-sizing: content-box; */
     text-align:center;
     width: 200px;
     height: 100px;
-    padding: 20px;  
-    border: 10px solid blue;
+    padding: 30px;
+    margin-block: 10px; 
+    border: 10px double rgb(69, 69, 164);
+    border-radius: 10rem;
+   
+   
     
     
     
